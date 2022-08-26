@@ -10,14 +10,14 @@ Installing
 
 To install the library, you can just run the following command:
 
-.. code:: sh
+
 
     # Windows
     py -3 -m pip install -U gd.platformer
 
 In order to install the library from source, you can do the following:
 
-.. code:: sh
+
 
     $ git clone https://github.com/nekitdev/gd.platformer
     $ cd gd.platformer
@@ -30,7 +30,7 @@ Running the app is quite simple.
 
 You can either invoke it from python:
 
-.. code:: python3
+
 
     import gd.platformer
 
@@ -38,22 +38,22 @@ You can either invoke it from python:
 
 Or run a console command:
 
-.. code:: sh
 
-    $ python -m gd.platformer
+
+     python -m gd.platformer
 
     # OR
 
-    $ gd.platformer
+     gd.platformer
 
 Building
 --------
 
 You can build an executable file from the ``gd/platformer.py`` file using *PyInstaller*:
 
-.. code:: sh
 
- pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml --icon=icon.ico gd/platformer.py
+
+     pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml --icon=icon.ico gd/platformer.py
 
 Generated executable will be in ``./dist`` folder.
 
@@ -61,3 +61,4 @@ Authors
 -------
 
 This project is mainly developed by `nekitdev <https://github.com/nekitdev>`_ and `Sapfirenko <https://github.com/Sapphire1ne>`_.
+Player rotation lock/unlock patch by `cos8o <https://github.com/Cos8o>`_.
