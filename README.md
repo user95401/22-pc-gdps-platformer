@@ -63,6 +63,6 @@ Generated executable will be in ``./dist`` folder.
 Authors
 -------
 
-This project is mainly developed by [nekitdev](https://github.com/nekitdev)  and [Sapfirenko](https://github.com/Sapphire1ne).
+This project is mainly developed by [nekitdev](https://github.com/nekitdev)  and [Sapfirenko](https://github.com/sapfirenko).
 Player rotation lock/unlock patch by [cos8o ](https://github.com/Cos8o).
 [Bang1338](https://github.com/Bang1338) found a way to use the letters A and D.
