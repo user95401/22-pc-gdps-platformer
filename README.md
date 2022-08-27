@@ -4,7 +4,7 @@ gd.platformer
 
 22-pc-gdps-platformer it's edited gd.platformer library that implements Geometry Dash Platformer Mod in Python.
 
-I have added: the name of the window, lock the player rotation at 0 speed, unlock the player rotation when moving, game mode conditions for this (player rotation), support for A and D.
+I have added: the name of the window, lock player rotation at 0 speed, unlock player rotation when moving, game mode conditions for this (player rotation), support for A and D.
 
 Installing
 ----------
