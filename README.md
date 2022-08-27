@@ -1,7 +1,10 @@
+
 gd.platformer
 =============
 
-gd.platformer is a library that implements Geometry Dash Platformer Mod in Python.
+22-pc-gdps-platformer it's edited gd.platformer library that implements Geometry Dash Platformer Mod in Python.
+
+I have added: the name of the window, lock the player rotation at 0 speed, unlock the player rotation when moving, game mode conditions for this (player rotation), support for A and D.
 
 Installing
 ----------
@@ -19,9 +22,9 @@ In order to install the library from source, you can do the following:
 
 
 
-    $ git clone https://github.com/nekitdev/gd.platformer
-    $ cd gd.platformer
-    $ python -m pip install -U .
+    git clone https://github.com/nekitdev/gd.platformer
+    cd gd.platformer
+    python -m pip install -U .
 
 Running
 -------
@@ -42,7 +45,7 @@ Or run a console command:
 
      python -m gd.platformer
 
-    # OR
+    #OR
 
      gd.platformer
 
@@ -53,12 +56,13 @@ You can build an executable file from the ``gd/platformer.py`` file using *PyIns
 
 
 
-     pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml --icon=icon.ico gd/platformer.py
+    pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml --icon=icon.ico gd/platformer.py
 
 Generated executable will be in ``./dist`` folder.
 
 Authors
 -------
 
-This project is mainly developed by `nekitdev <https://github.com/nekitdev>`_ and `Sapfirenko <https://github.com/Sapphire1ne>`_.
-Player rotation lock/unlock patch by `cos8o <https://github.com/Cos8o>`_.
+This project is mainly developed by [nekitdev](https://github.com/nekitdev)  and [Sapfirenko](https://github.com/Sapphire1ne).
+Player rotation lock/unlock patch by [cos8o ](https://github.com/Cos8o).
+[Bang1338](https://github.com/Bang1338) found a way to use the letters A and D.
