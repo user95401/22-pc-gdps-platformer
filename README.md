@@ -52,11 +52,11 @@ Or run a console command:
 Building
 --------
 
-You can build an executable file from the ``gd/platformer.py`` file using *PyInstaller*:
+You can build an executable file from the ``platformer.py`` file using *PyInstaller*:
 
 
 
-    pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml --icon=icon.ico gd/platformer.py
+    pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml platformer.py
 
 Generated executable will be in ``./dist`` folder.
 
