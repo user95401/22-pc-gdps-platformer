@@ -10,6 +10,7 @@ Installing
 ----------
 
 **Python 3.6 or higher is required**
+
 just download source code or exe and install it anywhere 
 
 Running
@@ -25,7 +26,7 @@ You can build an executable file from the ``platformer.py`` file using *PyInstal
 
 
 ```
-    pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml platformer.py
+pyinstaller --onefile --exclude-module PIL --exclude-module numpy --exclude-module IPython --exclude-module Crypto --exclude-module lxml platformer.py
 ```
 Generated executable will be in ``./dist`` folder.
 
