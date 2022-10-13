@@ -2,7 +2,7 @@ __title__ = "platformer"
 __author__ = "nekitdev"
 __copyright__ = "Copyright 2020-2021 nekitdev"
 __license__ = "MIT"
-__version__ = "0.1.5 (v1.3 - Edited for GDPS 2.2 PC)"
+__version__ = "0.1.5 (v1.4 - Edited for GDPS 2.2 PC)"
 
 # change keyboard layout
 import py_win_keyboard_layout
@@ -13,7 +13,6 @@ import time
 import gd
 import threading  # used for listening to events not related to keyboard
 from typing import Union
-
 from colorama import Fore  # type: ignore  # no typehints
 import gd  # type: ignore  # no typehints
 from pynput.keyboard import Key, Listener  # type: ignore  # no typehints
@@ -37,7 +36,7 @@ It works at any level, just click on the specified controls:
 
  Right/d     -> Move forward.
  Left/a      -> Move back.
- Any other   -> Move forward, unlock rotation.
+ Any other   -> unlock rotation.
  A & D controls only suports latin letters!
 """
 
@@ -60,7 +59,7 @@ speed_value = default_speed
 # setup speed values
 speed_values = [speed.value for speed in gd.api.SpeedConstant]
 # smooth speed change delay a
-sleepigo = 0.028
+sleepigo = 0.03
 
 try:
     speed_values.remove(0.0)
